@@ -1,6 +1,6 @@
 ---
  - name: How to use debug module
-   hosts: group1
+   hosts: all
    tasks:
    - name: Memory info
      shell: df -h
